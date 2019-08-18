@@ -4,6 +4,8 @@ A simple React application to determine how much you would be fined for Distract
 
 This was created as a project for learning ReactJS, CSS animations and inspired by the number of articles and media about Distracted Driving in BC.
 
+Check out the [Working Demo](http://examples.mikevsweb.com/distracted-driving-calculator/).
+
 ## Built With
 
 * [Bulma](https://bulma.io) - a free, open source CSS framework based on Flexbox 
