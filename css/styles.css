@@ -1,0 +1,78 @@
+/* Layout */
+.container {
+  padding-top: 2rem;
+  animation: fadein  3s;
+
+}
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Distracted Driving Calculator */
+.distractedDrivingCalculator {
+  margin: 0 auto;
+  background-color: #446CB3;
+  border: 3px solid #4183D7;
+  border-bottom: 9px solid #446CB3;
+  border-radius: 10px;
+  animation: fadein  4s;
+
+}
+
+.distractedDrivingCalculator .left {
+  background-color: #fff;
+}
+
+.distractedDrivingCalculator .right {
+  background-color: #446CB3;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.distractedDrivingCalculator .total {
+  text-align: center;
+}
+.distractedDrivingCalculator .total h3 {
+  margin-bottom: 0;
+  color: #fff;
+}
+.distractedDrivingCalculator .total h3.fine {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.distractedDrivingCalculator .total p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Animation */
+.hide {
+  opacity: 0;
+}
+.reveal {
+  margin-top: 2rem;
+   animation: moveUpAndFadein  2s;
+}
+
+@keyframes moveUpAndFadein {
+    from { opacity: 0; margin-top: 20%; }
+    to   { opacity: 1; margin-bottom: 10%; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
